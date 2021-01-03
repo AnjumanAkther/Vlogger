@@ -1,0 +1,102 @@
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+
+header{
+   background-image:url(../images/vlogger-template-hero-bg-forest-img.jpg);
+   min-height: 800px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.wrapper{
+   width:65%;
+   margin: 0px auto;
+   overflow: hidden;
+}
+.logo{
+   width:10%;
+   float: left;
+}
+.logo img{
+   width:100% ;
+}
+.menu{
+width: 90%;
+float: left;
+}
+.menu ul {
+   float: right;
+   margin-top: 8px;
+}
+.menu ul li{
+   list-style-type:none ;
+   display: inline;
+}
+.menu ul li a{
+   font-size:20px;
+   font-family: 'Roboto Slab', serif;
+   color: #31353e;
+   text-decoration: none;
+   text-transform: capitalize;
+   margin:0px 20px;
+   border-bottom: 2px solid transparent;
+   transition:.5s ;
+}
+.menu ul button{
+   font-family: 'Playfair Display', serif;
+   font-size: 20px;
+   font-weight: 400px;
+   color: white;
+   background: rgba(0, 0, 0, 0);
+   letter-spacing: 2px;
+   padding:10px 15px !important ;
+   text-transform: capitalize;
+   transition: .8s;
+   border:2px solid black;
+}
+.menu ul button:hover{
+color: #b3b3b3;
+}
+
+
+.banner{
+padding-top: 400px;
+}
+.hero_js{
+   width: 20%;
+   float: left;
+}
+.hero_js p{
+   font-family: 'Poppins', sans-serif;;
+   font-size:160px ;
+}
+.hero{
+   width:60%;
+   float: left;
+   min-height:500px ;
+}
+.hero img{
+   width: 100%;
+}
+.hero_text{
+   width: 20%;
+   float: left;
+}
+.hero_text button{
+   border:1px solid black !important;
+   padding: 0px 30px !important;
+   text-align:center!important;
+}
+.hero_text button:focus{
+   outline: none;
+}
+.hero_text h1{
+   font-size:40px;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 600px;
+}
+.hero_text p{
+   font-size:20px;
+   font-family: 'Roboto Slab', serif;
+}
+
